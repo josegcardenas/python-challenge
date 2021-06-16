@@ -1,0 +1,20 @@
+#First import
+import os
+import csv
+PyPollcsv = os.path.join('..', 'Resources', 'election_data.csv'
+
+#def poll percentages
+
+with open (PyPollcsv, 'w', newline='') as csvfile :
+    csvreader = csv.reader(csvfile, delimiter=',')
+    
+    print("Election Results", file = textfile)
+    print("-------------------------")
+    print(csvreader)
+    next(csvreader, None)
+    print(f"Header: {csv_header}")
+
+    
+
+        
+
